@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Regular.eot');
+	src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Oswald-Regular.woff2') format('woff2'),
+		url('../fonts/Oswald-Regular.woff') format('woff'),
+		url('../fonts/Oswald-Regular.ttf') format('truetype'),
+		url('../fonts/Oswald-Regular.svg#Oswald-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../fonts/ProximaNova-RegularIt.eot');
+	src: url('../fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+		url('../fonts/ProximaNova-RegularIt.woff') format('woff'),
+		url('../fonts/ProximaNova-RegularIt.ttf') format('truetype'),
+		url('../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+// Icons
+
+@font-face {
+	font-family: "agencia-de-noticias";
+	src:url("../fonts/agencia-de-noticias.eot");
+	src:url("../fonts/agencia-de-noticias.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/agencia-de-noticias.woff") format("woff"),
+		url("../fonts/agencia-de-noticias.ttf") format("truetype"),
+		url("../fonts/agencia-de-noticias.svg#agencia-de-noticias") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ia{
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-family: "agencia-de-noticias";
+	font-size: inherit;
+	font-style: normal;
+	text-transform: lowercase;
+	text-rendering: auto;
+	&:before{
+		position: relative;
+		top: 2px;
+	}
+}
+
+.ia-download:before {
+	content: "\6a";
+}
+.ia-bell:before {
+	content: "\6b";
+}
+.ia-photo:before {
+	content: "\6c";
+}
+.ia-map:before {
+	content: "\6d";
+}
+.ia-audio:before {
+	content: "\6e";
+}
+.ia-video:before {
+	content: "\6f";
+}
+.ia-print:before {
+	content: "\70";
+}
+.ia-tag:before {
+	content: "\71";
+}
+.ia-news:before {
+	content: "\72";
+}
+
+.ia-video-outline:before {
+  content: "\61";
+}
+.ia-camera-outline:before {
+  content: "\62";
+}
+.ia-audio-outline:before {
+  content: "\63";
+}
+.ia-clock:before {
+  content: "\64";
+}

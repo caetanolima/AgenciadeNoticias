@@ -1,0 +1,547 @@
+/* Inner */
+.inner {
+
+	article {
+
+		padding: 30px 0 0;
+
+		audio {
+			margin: 0 0 30px;
+			width: 100%;
+		}
+
+		p {
+			font-size: 17px;
+			line-height: 27px;
+			margin: 0 0 36px;
+
+			&.primeiro:first-letter {
+				font-size: 52px;
+				float: left;
+				font-weight: bold;
+				margin: 15px 12px 0 0;
+			}
+
+			a {
+				color: $green-1;
+				display: inline-block;
+				font-style: italic;
+				position: relative;
+				&:before{
+					background: #e7e8e1;
+					bottom: 2px;
+					display: block;
+					height: 3px;
+					left: 0;
+					position: absolute;
+					width: 100%;
+					content: " ";
+					transition: all 0.3s ease-in-out;
+				}
+				&:hover {
+					color: $blue;
+					&:before{
+						width: 0;
+					}
+				}
+			}
+		}
+
+		blockquote {
+
+			border: none;
+			display: inline-block;
+			float: right;
+			width: 360px;
+			padding: 60px 0 0;
+			position: relative;
+			margin-right: -20%;
+
+			&:after {
+				color: $green-1;
+				content: " “ ";
+				font-family: $proxima;
+				font-size: 80px;
+				left: 30px;
+				position: absolute;
+				top: 0;
+			}
+
+			p {
+				color: $green-1;
+				font-family: $oswald;
+				font-size: 27px;
+				line-height: 33px;
+				text-align: right;
+
+				strong, span {
+
+					color: #595959;
+					display: block;
+					font-family: $proxima;
+					line-height: 20px;
+					font-size: 13px;
+					padding: 10px 0 0;
+				}
+				span {
+					font-size: 12px;
+					padding: 0;
+				}
+			}
+
+		}
+
+		h3 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		figure {
+			display: block;
+			float: none;
+			height: auto;
+			margin: 0 -30px 35px;
+			img {
+				height: auto;
+				width: 100%;
+			}
+			figcaption {
+				border-bottom: dotted 1px #959595;
+				font-size: 13px;
+				font-style: italic;
+				padding: 15px 0;
+				opacity: 0.6;
+			}
+		}
+	}
+
+	/* Share */
+	.share{
+
+		display: block;
+		margin: 0 0 25px;
+
+		a{
+			background: none;
+			border-radius: 18px;
+			color: #fff;
+			display: inline-block;
+			font-size: 18px;
+			height: 38px;
+			line-height: 36px;
+			margin: 0 10px 10px 0;
+			min-width: 38px;
+			padding: 0 0 0 36px;
+			position: relative;
+			text-align: center;
+
+			span {
+				font-family: $proxima;
+				font-size: 15px;
+				padding: 0 20px 0 0;
+			}
+
+			&.fa-facebook{
+					background-color: #3367a1;
+			}
+			&.fa-twitter{
+				background-color: #00aeef;
+			}
+			&.fa-google-plus{
+				background-color: #e15440;
+			}
+			&.fa-linkedin{
+				background-color: #0077b5;
+			}
+			&.fa-envelope{
+				background-color: #b3b3b3;
+			}
+			&.error {
+				color: #b2b2b2;
+				font-size: 12px;
+				padding: 0;
+
+				&:hover {
+					color: $blue;
+				}
+			}
+
+			&:hover{
+				color: #fff;
+				opacity: 0.7;
+			}
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 38px;
+				text-align: center;
+			}
+		}
+	}
+
+	/* actions */
+	.actions {
+
+		list-style: none;
+		margin: 0 0 30px;
+		padding: 0;
+
+		li{
+			margin: 0 0 10px;
+
+			a {
+				color: #8c8c8c;
+				font-size: 13px;
+				line-height: 18px;
+
+				i {
+					font-size: 18px;
+					margin: 0 6px 0 0;
+				}
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+	}
+
+	/* Btn Green */
+	.btn.green {
+		border: solid 1px $green-2;
+		color: $green-1;
+		margin-bottom: 30px;
+
+		&:hover {
+			background: $green-2;
+			color: #fff;
+		}
+	}
+
+	.newsletter {
+		background: url(../images/inner/icon-newsletter.gif) 0 center no-repeat;
+		border-bottom: solid 1px #ebebeb;
+		border-top: solid 1px #ebebeb;
+		margin: 0 0 45px;
+		padding: 30px 0 30px 120px;
+
+		p {
+			display: inline-block;
+			margin: 0;
+			width: calc(100% - 250px)
+		}
+
+		form {
+			border: solid 1px #e6e6e6;
+			border-radius: 20px;
+			display: inline-block;
+			float: right;
+			height: 40px;
+			padding: 4px;
+
+			input {
+				border: none;
+				border-radius: 15px;
+				font-size: 14px;
+				height: 30px;
+				line-height: 30px;
+				padding: 0 15px;
+				width: 150px;
+			}
+
+			button {
+				background: $blue;
+				border: none;
+				border-radius: 15px;
+				color: #fff;
+				height: 30px;
+				line-height: 30px;
+				width: 50px;
+
+				&:hover {
+					opacity: 0.6;
+				}
+			}
+		}
+	}
+
+	.parana-informa {
+		padding: 80px 0;
+		.adv-title{
+			color: $green-1;
+			font-family: $oswald;
+			font-size: 13px;
+			margin: 0 0 30px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+/* Notícias */
+.inner-news{
+
+	.inner-news-header {
+		overflow: hidden;
+		position: relative;
+
+		.photo-credits {
+			background: rgba(0,0,0,0.8);
+			border-radius: 3px;
+			border: solid 2px #86858d;
+			bottom: 15px;
+			display: block;
+			padding: 20px;
+			position: absolute;
+			right: 20px;
+
+			img {
+				display: inline-block;
+				float: left;
+				margin: 0 20px 0 0;
+			}
+
+			span {
+				display: block;
+				float: left;
+				color: #fff;
+				font-size: 11px;
+				padding-top: 7px;
+				a {
+					color: #fff;
+					display: block;
+					text-transform: uppercase;
+
+					&:hover {
+						color: $blue;
+					}
+				}
+			}
+		}
+
+		img.feature-image {
+			height: auto;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.container {
+			position: relative;
+			z-index: 2;
+			h1 {
+				background: rgba(255,255,255,0.9);
+				border-left: solid 7px $blue;
+				bottom: 0;
+				font-size: 56px;
+				font-weight: bold;
+				line-height: 62px;
+				margin: 0 15px;
+				max-width: 75%;
+				padding: 20px 30px;
+				position: absolute;
+			}
+		}
+	}
+
+	aside {
+
+		margin: 0 0 50px;
+		padding-left: 30px;
+		position: relative;
+
+		h2.subtitle2 {
+			border-left: solid 7px $blue;
+			color: $blue;
+			font-size: 17px;
+			font-weight: bold;
+			line-height: 25px;
+			padding: 30px 0 0 30px;
+			margin: 0 0 40px -30px;
+		}
+
+		dl {
+
+			margin: 0 0 20px;
+
+			dt{
+				color: $default;
+				font-weight: normal;
+				margin: 0 0 10px;
+			}
+			dd {
+
+				margin: 0 0 15px;
+
+				p {
+					color: #8c8c8c;
+					line-height: 12px;
+					margin: 0;
+					padding: 0;
+				}
+
+				ol {
+					margin: 0;
+					overflow: hidden;
+					padding: 0;
+
+					li {
+						float: left;
+						font-size: 11px;
+						list-style: outside none none;
+						margin: 0 7px 7px 0;
+						padding: 0;
+
+						a {
+							border-radius: 3px;
+							background: #ebeddf;
+							color: $default;
+							display: block;
+							padding: 3px 8px;
+						}
+					}
+				}
+			}
+		}
+
+
+		.mais-noticias {
+			bottom: -15px;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			li {
+				border-radius: 3px;
+				border: solid 1px #e1e4e8;
+				list-style: none;
+				margin: 0 0 15px;
+				a {
+					border-radius: 3px;
+					color: $default;
+					display: block;
+					font-size: 14px;
+					line-height: 17px;
+					overflow: hidden;
+					padding: 20px 20px 20px 40px;
+					position: relative;
+					i{
+						color: $blue;
+						margin-left: -20px;
+						margin-right: 5px;
+						position: relative;
+						transition: all 0.3s ease-in-out;
+					}
+					span{
+						position: relative;
+					}
+					&:before {
+						background: #ebeddf;
+						content: "";
+						display: block;
+						height: 100%;
+						left: 0;
+						position: absolute;
+						top: 0;
+						width: 4px;
+						transition: all 0.3s ease-in-out;
+					}
+					&:hover {
+						color: $default;
+						i{
+							color: $default;
+						}
+						&:before{
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	.noticias-with-blue{
+
+		.destaques-hoje-title{
+			color: #dbdbdb;
+			font-size: 52px;
+			font-weight: bold;
+			line-height: 52px;
+			position: absolute;
+			top: -102px;
+		}
+	}
+
+	.ultimas-noticias {
+		color: $blue;
+		font-size: 17px;
+		font-weight: bold;
+		margin: 0 0 20px;
+		text-transform: uppercase;
+	}
+
+	.noticias-list-text {
+
+		li:first-child {
+
+			.item-news {
+				.image{
+
+					position: relative;
+					background: #00aeef none repeat scroll 0 0;
+					display: block;
+					margin: 0 0 10px;
+					overflow: hidden;
+					padding: 0;
+					position: relative;
+
+					span {
+						background: #00aeef none repeat scroll 0 0;
+						bottom: 10px;
+						color: #fff;
+						display: inline-block;
+						font-size: 10px;
+						left: 10px;
+						padding: 3px 5px;
+						position: absolute;
+						text-transform: uppercase;
+						z-index: 1;
+					}
+					img {
+						float: none;
+						margin: 0;
+						position: relative;
+
+					}
+					&:hover{
+						img{
+							opacity: 0.8;
+							transform: scale(1.1);
+						}
+					}
+				}
+			}
+
+			a {
+				font-size: 16px;
+
+				img {
+					display: inline-block;
+					float: left;
+					margin: 0 15px 20px 0;
+				}
+
+				span {
+					display: block;
+				}
+
+			}
+
+			&:after {
+				content: " ";
+				display: table;
+				clear: both;
+			}
+
+
+		}
+	}
+}

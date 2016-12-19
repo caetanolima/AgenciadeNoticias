@@ -1,0 +1,20 @@
+{
+  "name": "agenciadenoticias",
+  "description": "",
+  "authors": [
+    "João Junior"
+  ],
+  "license": "All rights reserved",
+  "moduleType": [],
+  "homepage": "",
+  "main": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "GreedyNav": "https://github.com/lukejacksonn/GreedyNav.git",
+    "css-hamburgers": "https://github.com/jonsuh/hamburgers.git#^0.7.0",
+    "owl.carousel": "https://github.com/OwlCarousel2/OwlCarousel2.git#^2.2.0",
+    "masonry": "^4.1.1",
+    "jquery": "^3.1.1"
+  }
+}
