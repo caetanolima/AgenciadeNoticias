@@ -1,4 +1,5 @@
-.highlight-opiniao{
+// Opinião
+.highlight-opiniao {
 	h4{
 		color: $blue;
 		font-family: "Times", "Georgia", sans-serif;
@@ -50,8 +51,65 @@
 			background: $green-2;
 		}
 	}
+	@media (max-width: 480px) {
+		margin: 0 0 50px;
+	}
 }
 
+// Paraná Informa
+.parana-informa {
+	padding: 80px 0;
+	.adv-title{
+		color: $green-1;
+		font-family: $oswald;
+		font-size: 13px;
+		margin: 0 0 30px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+.sidebar-parana-informa{
+	
+	.parana-informa {
+		padding: 0 0 40px;
+		.adv-title{
+			margin-bottom: 20px;
+			text-align: left;
+		}
+	
+		div{
+			float: none;
+			padding: 0;
+			width: 100%;
+			margin: 0;
+		}
+
+		.col-sm-4{
+			background: $bg-1;
+			border-radius: 3px;
+			margin-bottom: 15px;
+			overflow: hidden;
+			padding: 5px;
+			.adv-icon-text {			
+				dd {
+					font-size: 13px;
+					line-height: 20px;
+				}
+			}
+		}
+
+		@media (max-width: 768px){
+			.col-sm-4{
+				.adv-icon-text{
+					margin-bottom: 0;
+				}
+			}
+		}
+
+	}
+}
+
+// Destaque Agenda
 .highlight-agenda{
 	border-radius: 4px;
 	border: 1px solid #e6e6e6;
@@ -111,7 +169,7 @@
 					text-transform: uppercase;
 				}
 				dd{
-					background: #ebeddf;
+					background: $bg-1;
 					font-size: 14px;
 					padding: 20px 10px;
 					text-align: center;
@@ -171,6 +229,170 @@
 	}
 }
 
+// Destaque Programas de Áudio
+.widget-highlight-sidebar{
+	border-radius: 3px;
+	border: 1px solid #bdbdbd;
+	margin: 40px 0;
+	overflow: hidden;
+	dt{
+		img{
+			width: 100%;
+		}
+	}
+	dd{
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+				list-style: none;
+				margin: 0;
+				padding: 0 20px;
+				h3{
+					border-top: 1px dotted #bdbdbd;
+					font-size: 13px;
+					font-weight: bold;
+					margin: 0;
+					padding: 20px 0 20px 30px;
+					position: relative;
+					i{
+						color: $blue;
+						position: absolute;
+						left: 0;
+						top: 20px;
+						font-size: 16px;
+					}
+					a{
+						color: $default;
+						&:hover{
+							color: $blue;
+						}
+					}
+				}
+				&:first-child{
+					h3{
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Destaque Mais Lidos
+.widget-most-rated{
+	margin-bottom: 40px;
+	dt{
+		font-size: 14px;
+		line-height: normal;
+		padding: 0 0 0 30px;
+		position: relative;
+		text-transform: uppercase;
+		&:after{
+			background: $blue;
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 5px;
+		}
+	}
+	dd{
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+				list-style: none;
+				margin: 0;
+				padding: 0 0 0 48px;
+				position: relative;
+				&:before {
+					color: $green-2;
+					content: attr(data-number)".";
+					display: block;
+					font-family: $oswald;
+					font-size: 30px;
+					left: 0;
+					position: absolute;
+					text-align: center;
+					top: 18px;
+					width: 38px;
+					z-index: 1;
+				}
+				&:after {
+					background: $bg-1;
+					border-radius: 50%;
+					content: "";
+					display: block;
+					height: 30px;
+					left: 0;
+					position: absolute;
+					top: 20px;
+					width: 30px;
+				}
+				a{
+					border-top: 1px solid #dcdcdc;
+					color: $default;
+					display: block;
+					font-size: 14px;
+					font-weight: bold;
+					line-height: normal;
+					min-height: 30px;
+					padding: 20px 0;
+					i{
+						color: $blue
+					}
+					&:hover{
+						color: $blue
+					}
+				}
+				&:first-child a{
+					border: none;
+				}
+			}
+		}
+	}
+}
+
+// Botão de Notificações
+.button-news-notification{
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	border-bottom-width: 3px;
+	border-radius: 5px;
+	color: $default;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 10px 15px;
+	text-align: center;
+	margin: 0 auto;
+	i{
+		color: $blue;
+		transform: scale(2);
+		transition: all 0.3s;
+		margin-right: 10px;
+		&:before {
+			position: relative;
+			top: 1px;
+		}
+	}
+	&:hover{
+		background: $blue;
+		color: #fff;
+		i{
+			color: #fff;	
+		}
+	}
+	@media (max-width: 768px) {
+		padding: 15px 30px;
+	}
+}
+
+// Carregamento
 .load-more{
 	padding-top: 40px;
 	text-align: center;
@@ -207,12 +429,15 @@
 		font-size: 16px;
 		padding: 10px 25px;
 		&:hover{
-			background: #ebeddf;
+			background: $bg-1;
 			border-color: #dfe2c9;
 		}
 	}
 	p{
 		margin: 30px 0 40px;
+	}
+	@media (max-width: 768px) {
+		padding-bottom: 60px;
 	}
 }
 

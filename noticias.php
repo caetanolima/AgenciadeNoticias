@@ -23,11 +23,11 @@
 									<h4>Tratamento adequado   </h4>
 									<h3><a href="">Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe</a></h3>
 									<p>
-										<a href="">Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i></a>
+										Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i>
 									</p>
 									<nav class="social-share">
 										<span>Compartilhe:</span>
-										<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+										<a href="whatsapp://send?text=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 
 										<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 										<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
@@ -49,32 +49,32 @@
 						<aside class="item-photos-content">
 							<h3>Gestores da educação profissional participam de formação em Curitiba</h3>
 							<div class="gallery">
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<img src="_assets/images/fake/fake-noticias-list-1.jpg" alt="Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe">
 									</a>
 								</div>
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<img src="_assets/images/fake/fake-noticias-list-1.jpg" alt="Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe">
 									</a>
 								</div>
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<img src="_assets/images/fake/fake-noticias-list-1.jpg" alt="Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe">
 									</a>
 								</div>
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<img src="_assets/images/fake/fake-noticias-list-1.jpg" alt="Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe">
 									</a>
 								</div>
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<img src="_assets/images/fake/fake-noticias-list-1.jpg" alt="Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe">
 									</a>
 								</div>
-								<div class="col-sm-2 col-xs-4">
+								<div class="col-sm-2">
 									<a href="">
 										<span>
 											+12 <br>
@@ -87,7 +87,7 @@
 							
 							<nav class="social-share">
 								<span>Compartilhe:</span>
-								<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+								<a href="whatsapp://send?<?php echo urlencode("Paraná Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 								<a href="<?php
@@ -105,11 +105,11 @@
 							<h4>Tratamento adequado   </h4>
 							<h3><a href="">Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe</a></h3>
 							<p>
-								<a href="">Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i></a>
+								Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i>
 							</p>
 							<nav class="social-share">
 								<span>Compartilhe:</span>
-								<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+								<a href="whatsapp://send?<?php echo urlencode("Paraná Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 								<a href="<?php
@@ -147,7 +147,7 @@
 
 							<nav class="social-share">
 								<span>Compartilhe:</span>
-								<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+								<a href="whatsapp://send?<?php echo urlencode("Paraná Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 								<a href="<?php
@@ -191,7 +191,7 @@
 									</p>
 									<nav class="social-share">
 										<span>Compartilhe:</span>
-										<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+										<a href="whatsapp://send?text=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 										<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 										<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 										<a href="<?php
@@ -218,11 +218,11 @@
 							<h4>Tratamento adequado   </h4>
 							<h3><a href="">Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe</a></h3>
 							<p>
-								<a href="">Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i></a>
+								Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i>
 							</p>
 							<nav class="social-share">
 								<span>Compartilhe:</span>
-								<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+								<a href="whatsapp://send?<?php echo urlencode("Paraná Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 								<a href="<?php
@@ -240,11 +240,11 @@
 							<h4>Tratamento adequado   </h4>
 							<h3><a href="">Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe</a></h3>
 							<p>
-								<a href="">Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i></a>
+								Secretaria da Agricultura liberou R$ 209 mil para ações em microbacia do município de salto do lontra, no sudoeste do paraná. <i class="fa fa-volume-up"></i>
 							</p>
 							<nav class="social-share">
 								<span>Compartilhe:</span>
-								<a href="whatsapp://send?text=Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe" target="_blank" class="fa fa-whatsapp"></a>
+								<a href="whatsapp://send?<?php echo urlencode("Paraná Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe");?>" target="_blank" class="fa fa-whatsapp"></a>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank" class="fa fa-facebook"></a>
 								<a href="https://twitter.com/home?status=<?php echo urlencode("Paraná solicita ao Ministério da Saúde doses extras de medicamento para a gripe"); ?>" target="blank" class="fa fa-twitter"></a>
 								<a href="<?php
@@ -273,6 +273,10 @@
 					<p>
 						<button class="button-load-more">Ver Arquivo de Notícias</button>
 					</p>
+
+					<a href="" class="link-green">
+						Ver arquivo de notícias <i class="fa fa-angle-right"></i>
+					</a>
 				</div>
 
 				<nav class="nav-editorias">
@@ -286,7 +290,7 @@
 
 		<hr class="size-lg">
 
-		<?php include '_parana-informa.php'; ?>
+		<?php include 'widget-parana-informa.php'; ?>
 
 	</div>
 

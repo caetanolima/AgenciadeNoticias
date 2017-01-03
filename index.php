@@ -1,7 +1,7 @@
 <?php include '_header.php'; ?>
 
 <div class="page-home">
-	
+
 	<div class="news-home-highlight">
 		<div class="container">
 			<div class="row">
@@ -94,7 +94,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div class="noticias-with-blue">
-								<div class="row">
+								<div class="row gallery">
 									<div class="col-md-6">
 										<dl>
 											<dt>
@@ -161,7 +161,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-sm-5">
+						<div class="col-lg-5 col-md-6">
 							<dl class="adv-icon-text">
 								<dt>
 									<a href=""><img src="_assets/images/fake/mini-banner-fake-1.jpg" alt="Observatório de Inovação em Gestão Pública"></a>
@@ -171,7 +171,7 @@
 								</dd>
 							</dl>
 						</div>
-						<div class="col-sm-5 col-sm-offset-2">
+						<div class="col-lg-5 col-lg-offset-2 col-md-6">
 							<dl class="adv-icon-text">
 								<dt>
 									<a href=""><img src="_assets/images/fake/mini-banner-fake-2.jpg" alt="Jogos da Juventude Paraná"></a>
@@ -319,7 +319,6 @@
 						</h3>
 						<dl>
 							<dt>
-								<span class="title">Simepar conta com sistema que prevê incidência de raios</span>
 								<video
 									controls=""
 									preload="metadata"
@@ -337,9 +336,9 @@
 										</p>
 									</div>
 								</video>
+								<span class="title">Simepar conta com sistema que prevê incidência de raios</span>
 							</dt>
 							<dd>
-								
 								<div class="owl-carousel owl-carousel-videos-highlight">
 									<div class="item">
 										<a href="">

@@ -1,0 +1,167 @@
+.page-audio{
+	padding: 80px 0;
+	header{
+		display: none;
+		margin-bottom: 30px;
+		h1{
+			margin: 0 0 30px;
+			font-size: 33px;
+			text-align: center;
+			font-weight: bold;
+			i{
+				margin-right: 10px;
+				transform: scale(1.2);
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		background: $bgmobile;
+		padding: 40px 0;
+		header{
+			display: block;
+		}
+	}
+}
+
+.inner-audio{
+	padding: 80px 0 0 0;
+	article{
+		padding: 0;
+	}
+	.title-category-audio{
+		color: #a8a8a8;
+		font-weight: bold;
+		margin: 0 0 10px;
+		font-size: 22px;
+		i{
+			margin-right: 5px;
+			&:before{
+				top: 3px;
+			}
+		}
+	}
+	.highlight-audio-inner{
+		background: $bg-1;
+		border-radius: 5px;
+		padding: 20px 30px 20px 100px;
+		position: relative;
+		margin-bottom: 40px;
+		span.icon-player{
+			color: $blue;
+			left: 20px;
+			position: absolute;
+			top: 20px;
+			i{
+				font-size: 60px;
+			}
+		}
+		h1{
+			font-size: 26px;
+			line-height: 31px;
+			margin: 0 0 20px;
+			font-weight: bold;
+			a{
+				color: $default;
+			}
+		}
+		audio{
+			margin: 0;
+		}
+		@media (max-width: 768px) {
+			padding: 20px 30px;
+			span.icon-player{
+				display: none;
+			}
+			h1{
+				font-size: 18px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+.list-audios{
+	.item{
+		border-top: 1px solid #e5e5e5;
+		padding: 40px 0;
+		position: relative;
+		i{
+			color: $blue;
+			display: block;
+			font-size: 20px;
+			margin-bottom: 5px;
+		}
+		em{
+			color: rgba($default, 0.5);
+			display: block;
+			font-size: 11px;
+			font-style: normal;
+		}
+		h2{
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 21px;
+			margin: 0;
+			a{
+				color: $default;
+			}
+		}
+		audio{
+			width: 100%;
+		}
+		time{
+			color: rgba($default, 0.4);
+			display: block;
+			text-align: right;
+		}
+		&.item-highlight{
+			background: $bg-1;
+			padding: 30px 30px 30px 100px;
+			span.icon-player{
+				left: 20px;
+				position: absolute;
+				top: 30px;
+				i{
+					font-size: 60px;
+				}
+			}
+			h2{
+				font-size: 26px;
+				line-height: 31px;
+				margin: 0 0 20px;
+				a{
+					color: $default;
+				}
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		.item{
+			background: #fff;
+			border-radius: 3px;
+			border: 1px solid #e5e5e5;
+			margin-bottom: 20px;
+			padding: 20px;
+			time{
+				text-align: left;
+				padding-top: 3px;
+			}
+			&.item-highlight{
+				background: #fff;
+				padding: 20px 20px 20px 70px;
+				span.icon-player{
+					left: 20px;
+					top: 20px;
+					i{
+						font-size: 30px;
+					}
+				}
+				h2{
+					font-size: 18px;
+					line-height: 24px;
+					margin: 0 0 20px;
+				}
+			}
+		}
+	}
+}

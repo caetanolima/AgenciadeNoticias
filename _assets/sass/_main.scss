@@ -321,6 +321,8 @@
 		background: $bgmenu;
 		color: #fff;
 		height: 44px;
+		position: relative;
+		z-index: 15;
 		.container{
 			position: relative;
 		}
@@ -508,7 +510,7 @@
 }
 
 // Footer Main
-.footer-main{
+.footer-main {
 	background: $default;
 	color: #fff;
 	padding: 50px 0;
@@ -694,6 +696,136 @@
 		}
 	}
 }
+
+@media (max-width: 992px) {
+
+	.footer-main {
+		.footer-sitemap {
+
+			text-align: center;
+
+			dl {
+
+				dt {
+					text-align: center;
+				}
+
+			}
+		}
+
+		.footer-info {
+			.logo-agencia {
+				text-align: center;
+			}
+			.footer-info-nav{
+
+				&:after{
+					content: " ";
+					display: table;
+					clear: both;
+				}
+			}
+			.footer-social{
+				margin: 0 0 30px;
+				text-align: center;
+
+				&:after{
+					content: " ";
+					display: table;
+					clear: both;
+				}
+
+				a{
+					border-radius: 3px;
+					margin: 0 5px;
+						&.fa-facebook{
+							background-color: #3367a1;
+						}
+						&.fa-twitter{
+							background-color: #00aeef;
+						}
+						&.fa-youtube{
+							background-color: #e7503f;
+						}
+						&.fa-instagram{
+							background-color: #cb65b1;
+						}
+						&.fa-rss{
+							background-color: #f68121;
+						}
+				}
+			}
+			.footer-copyright {
+				.logo-copyright {
+					text-align: center;
+					img {
+						margin: 0 10px;
+					}
+				}
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.footer-main {
+		.footer-sitemap {
+
+			border: none;
+			padding-bottom: 0;
+
+			dl {
+				display: none;
+			}
+			.footer-icon-notify{
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.footer-main {
+
+		.footer-info {
+			.footer-info-nav{
+
+				a {
+					display: inline-block;
+					float: left;
+					text-align: center;
+					width: 50%;
+					&:after{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+@media (max-width: 360px) {
+	.footer-main {
+
+		.footer-info {
+
+			.footer-info-nav{
+				a {
+					display: block;
+					float: none;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
 
 // Menu Responsive
 .mp-pusher{
@@ -901,7 +1033,7 @@
 }
 
 // Icons ADV
-.adv-icon-text{
+.adv-icon-text {
 	background: #fff;
 	border: 1px solid #dae3ed;
 	display: block;
@@ -938,9 +1070,24 @@
 }
 
 
+@media (max-width: 768px) {
+	.adv-icon-text {
+		margin: 0 0 20px;
+	}
+}
+
 .adv{
 	&.green{
 		border-radius: 3px;
 		border: 4px solid #ebeddf;
+	}
+}
+
+@media (max-width: 480px) {
+	.adv{
+		&.green{
+			border-radius: 0;
+			border: none;
+		}
 	}
 }
